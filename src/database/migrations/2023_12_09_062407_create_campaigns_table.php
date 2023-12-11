@@ -20,7 +20,7 @@ class CreateCampaignsTable extends Migration
             $table->string('price_check')->nullable();
             $table->string('point_check')->nullable();
             $table->string('tenant_id');
-            $table->string('campaign_code');
+            $table->string('campain_code');
             $table->text('hash')->nullable();
             $table->decimal('unit_price_for_coupon', 10, 0);
             $table->decimal('unit_price_for_point', 10, 0);
