@@ -1,0 +1,19 @@
+{
+    "name": "tanha/tanha-test-package-laravel",
+    "description": "Easy CMS-like page creation and editing for Laravel Spark",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Bryan Miller 1",
+            "email": "bryan@kirschbaumdevelopment1.com"
+        }
+    ],
+    "keywords": ["laravel-spark", "content-management", "pages"],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Kirschbaum\\LaravelSparkPages\\": "src/"
+        }
+    }
+}
